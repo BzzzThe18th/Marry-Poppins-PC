@@ -8,6 +8,6 @@ namespace MarryPoppins
     {
         public const string GUID = "com.buzzbzzzbzzbzzzthe18th.gorillatag.marrypoppins";
         public const string Name = "MarryPoppins";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.1";
     }
 }
