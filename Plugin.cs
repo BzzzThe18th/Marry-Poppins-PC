@@ -15,15 +15,9 @@ namespace MarryPoppins
         bool inRoom;
         public static bool umbrellaOpened;
 
-        private void resetGravity()
-        {
-            Physics.gravity = new Vector3(0f, -9.81f, 0f);
-        }
+        private void resetGravity() => Physics.gravity = new Vector3(0f, -9.81f, 0f);
 
-        void OnEnable()
-        {
-            HarmonyPatches.ApplyHarmonyPatches();
-        }
+        void OnEnable() => HarmonyPatches.ApplyHarmonyPatches();
 
         void OnDisable()
         {
